@@ -1,4 +1,8 @@
-# Lucifer9 Mytools
+# Mytools
+
+Some tools with patches:
+
+- stow-dotfix (Original GNU Stow with AitorATuin's patches for --dotfiles)
 
 ## How do I install these formulae?
 
