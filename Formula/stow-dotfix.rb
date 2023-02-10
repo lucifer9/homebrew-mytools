@@ -22,6 +22,8 @@ class StowDotfix < Formula
 
   patch :DATA
 
+  conflicts_with "stow", because: "both install `stow` binaries"
+
   def install
     system "./configure", "--prefix=#{prefix}"
     system "make", "install"
