@@ -20,6 +20,8 @@ class StowDotfix < Formula
     sha256 cellar: :any_skip_relocation, x86_64_linux:   "a754fc537de774792df15850b4f8252d8c88e76280ab3dfd49067588e426d061"
   end
 
+  conflicts_with "stow", because: "both install `stow` binaries"
+
   patch :DATA
 
   def install
