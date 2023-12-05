@@ -7,6 +7,7 @@ class StowDotfix < Formula
   license "GPL-3.0-or-later"
 
   bottle do
+    sha256 cellar: :any_skip_relocation, arm64_sonoma:   "23f1b2f714e53439b6070d88d9512779e31bab5888ccfa5841d19d66a6938ecf"
     sha256 cellar: :any_skip_relocation, arm64_ventura:  "41efa9a76b9e62d701778c81edac50a80dc79199b06b1d4857651f9169b87c39"
     sha256 cellar: :any_skip_relocation, arm64_monterey: "39057770aa013dbeb401c9fe470b7fddc414d0b700972f56a7308265df3458e6"
     sha256 cellar: :any_skip_relocation, arm64_big_sur:  "f6dc9f73ac8ef55caa0f8204c893bf41dcdffbae22b39d95a85eee5c99507b55"
